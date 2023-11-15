@@ -1,4 +1,5 @@
 # deployShell
 bash shell to deploy nyasite
 # 环境
-docker debian:lastest image
+docker run -it -v D:/nyasite:/nyasite debian /bin/bas
+（debian 12.2）
