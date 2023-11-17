@@ -1,10 +1,10 @@
 #!/bin/bash
-#取得管理员权限后运行
+#su firstly or in root
 apt-get update
 apt-get install git
-#安装golang
+#install golang
 apt-get install golang
-#安装nodejs18
+#install nodejs18
 apt-get update
 apt-get install -y ca-certificates curl gnupg
 mkdir -p /etc/apt/keyrings
@@ -13,8 +13,8 @@ NODE_MAJOR=18
 echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 apt-get update
 apt-get install nodejs -y
-#安装pgsql
+#install pgsql
 apt-get update
 apt-get install postgresql postgresql-client
-#安装libvips
+#install libvips,for nodebb
 apt-get install libvips

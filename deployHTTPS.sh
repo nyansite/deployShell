@@ -1,8 +1,8 @@
-#克隆后端
+#deploy frontend
 git clone https://github.com/nyansite/cute_site.git nyasiteBackend
-#克隆前端
+#deploy backend
 git clone https://github.com/nyansite/cirno_web.git nyasiteFrontend
-#部署nodeBB站
+#deploy nodebb
 git clone https://github.com/NodeBB/NodeBB.git nyasiteNodeBB
 cd nyasiteNodeBB
 node nodebb setup
