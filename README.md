@@ -19,4 +19,11 @@ creat superuser for nyasiteBackend and nodebb
 3.deployHTTPS.sh deploySSH.sh
 deploy nyasiteFrontend(cirno_web) , nyasiteBackend (cute_site) , nyasiteNodeBB(NodeBB)
 need to set nodebb in browser
-database: type:PostgreSQL database:nodebb account:nodebb password:114514(change your password when not dev)
+（change your password when not dev)
+
+| form     | input      |
+| -------- | ---------- |
+| type     | PostgreSQL |
+| database | nodebb     |
+| account  | nodebb     |
+| password | 114514     |
