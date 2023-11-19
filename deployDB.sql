@@ -2,10 +2,10 @@ CREATE DATABASE dbs;
 CREATE DATABASE nodebb;
 CREATE USER mainbackend WITH SUPERUSER;
 ALTER USER mainbackend WITH PASSWORD '114514';
---生产环境中需要更改密码
+--change your password in pro
 GRANT ALL PRIVILEGES ON DATABASE dbs TO mainbackend;
 GRANT ALL PRIVILEGES ON DATABASE nodebb TO mainbackend;
 CREATE USER nodebb WITH SUPERUSER;
 ALTER USER nodebb WITH PASSWORD '114514';
---生产环境中需要更改密码
+--change your password in pro
 GRANT ALL PRIVILEGES ON DATABASE nodebb TO nodebb;
