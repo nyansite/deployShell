@@ -6,4 +6,3 @@ git clone https://github.com/nyansite/cirno_web.git nyasiteFrontend
 git clone https://github.com/NodeBB/NodeBB.git nyasiteNodeBB
 cd nyasiteNodeBB
 node nodebb setup
-npm install nodebb-plugin-session-sharing

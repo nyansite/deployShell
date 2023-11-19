@@ -1,5 +1,4 @@
 # deployShell
 bash shell to deploy nyasite
-# 环境
-docker run -it -v D:/nyasite:/nyasite debian /bin/bash
-（debian 12.2）
+# environment
+docker run -it --name="nyasite" -p 3000:3000 -v D:/nyasite:/nyasite debian:12.2 /bin/bash

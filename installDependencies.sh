@@ -1,5 +1,5 @@
 #!/bin/bash
-#su firstly or in root
+#in root
 apt-get update
 apt-get install git
 #install golang
