@@ -1,7 +1,7 @@
 #!/bin/bash
 #in root
 apt-get update
-apt-get install  -y git wget ca-certificates curl gnupg
+apt-get install  -y git wget ca-certificates curl gnupg build-essential
 #install golang
 wget https://golang.google.cn/dl/go1.20.11.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.20.11.linux-amd64.tar.gz
