@@ -1,5 +1,5 @@
 #deploy frontend
-git clone git@github.com:nyansite/cute_site.git.git nyasiteBackend
+git clone git@github.com:nyansite/cute_site.git nyasiteBackend
 #deploy backend
 git clone git@github.com:nyansite/cirno_web.git nyasiteFrontend
 #deploy nodebb
