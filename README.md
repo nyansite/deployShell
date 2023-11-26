@@ -4,7 +4,7 @@ bash shell to deploy nyasite
 
 # environment
 
-docker run -it --name="nyasite" -p 3000:3000 -p 8000:8000 -p 4567:4567  -p 5432:5432  -v D:/nyasite:/nyasite ubuntu:22.04 /bin/bash
+docker run -it --name="nyasite" -p 3000:3000 -p 8000:8000 -p 4567:4567  -p 5432:5432  -v <YourLocationRepository>:/nyasite ubuntu:22.04 /bin/bash
 
 # deploy order
 
