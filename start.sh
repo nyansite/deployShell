@@ -5,5 +5,4 @@ node nodebb start &
 cd /nyasite/nyasiteBackend/
 CGO_ENABLED=1 go run . &
 cd /nyasite/nyasiteFrontend
-npm install
 npm run dev
