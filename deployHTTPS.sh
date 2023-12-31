@@ -6,6 +6,6 @@ cd /nyasite/nyasiteFrontend
 npm install
 cd /nyasite
 #deploy nodebb
-git clone https://github.com/NodeBB/NodeBB.git nyasiteNodeBB
+git clone -b v3.x  https://github.com/NodeBB/NodeBB.git nyasiteNodeBB
 cd nyasiteNodeBB
 node nodebb setup
