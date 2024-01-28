@@ -3,3 +3,4 @@ nyasiteFrontend
 nyasiteNodeBB
 debug.log
 .hintrc
+*.code-workspace
