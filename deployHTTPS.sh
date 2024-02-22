@@ -1,7 +1,7 @@
 #deploy frontend
-git clone https://github.com/nyansite/cute_site.git nyasiteBackend
+git clone https://github.com/nyansite/nyasite-backend.git nyasiteBackend
 #deploy backend
-git clone https://github.com/nyansite/cirno_web.git nyasiteFrontend
+git clone https://github.com/nyansite/nyasite-frontend.git nyasiteFrontend
 cd /nyasite/nyasiteFrontend
 npm install
 cd /nyasite
