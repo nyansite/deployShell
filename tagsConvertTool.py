@@ -1,7 +1,7 @@
 #convert the original tags file (now csv) into a sql file and a js file for search bar
 import csv
 l = []
-sqllines = ["/encoding UTF8\n"]
+sqllines = ["\encoding UTF8\n"]
 js = "export var entireTags = ["
 with open('./tag.csv', 'rt', encoding="UTF8") as f:
     cr = csv.DictReader(f)
