@@ -1,0 +1,10 @@
+services:
+  psql:
+    image: "postgres"
+    environment:
+      POSTGRES_PASSWORD: 114514
+      POSTGRES_DB: dbs
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
