@@ -4,3 +4,6 @@ nyasiteNodeBB
 debug.log
 .hintrc
 *.code-workspace
+tag.csv
+tag.js
+tag.sql

@@ -9,10 +9,10 @@ with open('./tag.csv', 'rt', encoding="UTF8") as f:
         l.append(row[None])
 for i in range(4, len(l)):
     if l[i][0] != "":
-        sqllines.append("INSERT INTO tag_model (text) VALUES ('" + l[i][0] + "')\n")
+        sqllines.append("INSERT INTO tag_model (text) VALUES ('" + l[i][0] + "');\n")
         js = js + "'" + l[i][0] + "',"
     if l[i][3] != "":
-        sqllines.append("INSERT INTO tag_model (text) VALUES ('" + l[i][3] + "')\n")
+        sqllines.append("INSERT INTO tag_model (text) VALUES ('" + l[i][3] + "');\n")
         js = js + "'" + l[i][3] + "',"
 js = js[:-1] + "]"
 with open('./tag.sql', 'w', encoding="UTF8") as fsql:
