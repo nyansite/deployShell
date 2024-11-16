@@ -17,3 +17,6 @@ apt-get update
 apt-get install nodejs -y
 #install pgsql
 apt-get install postgresql postgresql-client
+#install protonmail bridge
+wget https://github.com/ProtonMail/proton-bridge/releases/download/v3.14.0/protonmail-bridge_3.14.0-1_amd64.deb
+apt-get install ./protonmail-bridge_3.14.0-1_amd64.deb
