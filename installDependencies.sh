@@ -3,8 +3,8 @@
 apt-get update
 apt-get install  -y git wget ca-certificates curl gnupg build-essential
 #install golang
-wget https://golang.google.cn/dl/go1.20.11.linux-amd64.tar.gz
-tar -C /usr/local -xzf go1.20.11.linux-amd64.tar.gz
+wget https://golang.google.cn/dl/go1.22.7.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.22.7.linux-amd64.tar.gz
 sed -i -e '$a\export PATH=$PATH:/usr/local/go/bin' /etc/profile
 source /etc/profile
 rm go1.20.11.linux-amd64.tar.gz
